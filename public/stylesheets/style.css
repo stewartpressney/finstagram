@@ -1,0 +1,82 @@
+header {
+  overflow: hidden;
+  display: flex;
+  align-items: baseline;
+  width:100%;
+  position:fixed; 
+  top:0px;
+  background-color: white;
+  border:1px solid #CCC;
+  font-family: 'Bitter', serif;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+    
+}
+
+main {
+  width: 450px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px
+}
+
+h1{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-left: 50px;
+
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+}
+
+h5{
+  font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a {
+  color: #244751;
+  text-decoration: none;
+}
+
+.post{
+    margin-top: 60px;
+}
+
+.photo:hover{
+    opacity: 0.75;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+.button {
+  padding: .5em;
+  background-color: white;
+  border: solid 1px #244751;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #244751;
+    color: white;
+}

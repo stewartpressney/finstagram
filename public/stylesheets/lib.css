@@ -8,10 +8,6 @@ body, input {
   color: #244751;
 }
 
-a {
-  color: #8da7b8;
-  text-decoration: none;
-}
 
 label {
   display: block;
@@ -25,19 +21,8 @@ input[type=text], input[type=password], input[type=email] {
   font-size: 1em;
 }
 
-header {
-  overflow: hidden;
-  display: flex;
-  align-items: baseline;
-}
-
 header > .login-info {
   margin-left: auto;
-}
-
-main {
-  width: 450px;
-  margin: 0 auto;
 }
 
 .new-post {
@@ -53,15 +38,9 @@ main {
   box-sizing: border-box;
 }
 
-.button {
-  padding: .5em;
-  background-color: white;
-  border: solid 1px #244751;
-  display: inline-block;
-}
-
 .post > * {
   margin-bottom: 1em;
+  margin-top: 100px;
 }
 
 .user-info {
@@ -83,11 +62,14 @@ main {
 
 .photo {
   display: block;
+  background-color: white;
+  
 }
 
 .photo img {
   display: block;
   width: 100%;
+  margin-top: -90px;
 }
 
 .actions {
@@ -101,7 +83,7 @@ main {
 }
 
 .actions .comment-count {
-  margin-left: auto;
+  margin-left: 50px;
 }
 
 .comments {
